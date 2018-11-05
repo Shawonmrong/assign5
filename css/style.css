@@ -1,0 +1,526 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a button {
+    font-family: "Montserrat";
+}
+
+
+p {
+    color: #83a7a5;
+    font-size: 14px;
+}
+
+header {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 300px;
+    right: 0;
+    left: 0;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0.52) 0%, rgba(0, 0, 0, 0.15) 70%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0.52) 0%, rgba(0, 0, 0, 0.15) 70%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52) 0%, rgba(0, 0, 0, 0.15) 70%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', GradientType=0);
+}
+
+.container {
+    max-width: 1056px;
+}
+
+.navbar {
+    border-bottom: 1px solid #bfbfbf;
+    padding: 18px 0px;
+}
+
+.header_phone {
+    border-left: 1px solid white;
+    margin-left: 20px;
+}
+
+.header_phone img {
+    display: inline-block;
+    margin-left: 25px;
+    width: 20px;
+}
+
+.header_phone P {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+
+.nav-link {
+    color: #bfbfbf;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+
+
+.active a {
+    color: white;
+    font-weight: bold;
+}
+
+.get_started {
+    border-radius: 2px;
+    color: white;
+    background: rgba(255, 255, 255, 0.35);
+    padding: 7px 18px;
+    text-transform: uppercase;
+}
+
+.get_started:hover {
+    background: #6fb048;
+}
+
+
+/*Banner Area CSS*/
+
+.banner_area {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.banner_area::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(45, 110, 112, .9);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.banner_content {
+    color: white;
+}
+
+.banner_content p {
+    margin: 10px 0px 25px;
+    color: white;
+}
+
+
+.button {
+    background: #6fb048;
+    padding: 10px 40px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*Banner Area CSS*/
+
+/*Features Area CSS*/
+
+.features {
+    padding: 80px 20px;
+}
+
+
+.title h2 {
+    color: #0f5f5c;
+    position: relative;
+}
+
+
+.title h2::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background: #6fb048;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -14px;
+}
+
+.title p {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+
+.single_feature {
+    margin-top: 50px;
+}
+
+
+.single_feature h4 {
+    margin: 25px 0px 20px;
+    font-size: 16px;
+    color: #0f5f5c;
+    font-weight: 700;
+}
+
+.other_features {
+    margin: 50px 0px;
+}
+
+.other_features h4 {
+    margin: 6px 0px 20px 20px;
+    font-size: 16px;
+    color: #0f5f5c;
+    font-weight: 700;
+    float: left;
+}
+
+/* perfect css*/
+.perfect {
+    padding: 60px 0px;
+    background-color: #EEF0EB;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.perfect-para p {
+    color: #83a7a5;
+    margin-top: 45px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.perfect-text {
+    margin: 140px 0 100px 0;
+}
+
+.perfect-text p {
+    color: #83a7a5;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.perfect-text h2 {
+    color: #0f5f5c;
+}
+
+
+/*ceo css*/
+.ceo_msg {
+    padding: 80px 10px;
+    background-color: #FDFDFD;
+    background-position: center;
+
+}
+
+.ceo_msg-text p {
+    font-size: 24px;
+    font-family: "Times New Roman";
+    color: #83a7a5;
+}
+
+.ceo_msg-designation p {
+    font-size: 14px;
+    font-family: "Times New Roman";
+    margin-bottom: 0;
+    color: #83a7a5;
+}
+
+.ceo_msg-img img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+
+/*map css*/
+.map {
+    padding: 90px 10px;
+    background-color: #EBEDEA;
+    background-position: center;
+}
+
+.map-img img {
+    float: right;
+    margin: 60px 0;
+}
+
+.map-text {
+    margin-left: 150px;
+}
+
+.map-text p {
+    font-size: 14px;
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+
+.map-text h2 {
+    font-size: 34px;
+    color: #0f5f5c;
+    font-family: "Roboto";
+}
+
+
+/*price css*/
+.price {
+    padding: 80px 10px;
+}
+
+.price-para p {
+    color: #83a7a5;
+    margin-top: 45px;
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+#price-box {
+    margin: 25px 5px;
+    border: 1px solid #c1d3d2;
+    padding: 25px 0;
+}
+
+.no-border {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.price-text h4 {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6fb048;
+}
+
+.price-tag {
+    color: #0f5f5c;
+    padding: 10px 0;
+}
+
+.price-tag h1 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.price-tag p {
+    margin-top: -16px;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.price-text-list p {
+    color: #8badab;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-price {
+    background-color: #83a7a5;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    padding: 5px 15px;
+    margin: 15px 0;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+.btn-price:hover {
+    background-color: #6fb048;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+.btn-green {
+    background-color: #6fb048;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #83a7a5;
+    color: #fff;
+}
+
+/*plan css*/
+.plan {
+    padding: 40px 0 60px 0;
+
+}
+
+.plan-text {
+    margin: 60px 0;
+    color: #8badab;
+}
+
+.plan-title {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+}
+
+.plan-img {
+    margin: 10px 0;
+}
+
+.green {
+    color: #6fb048;
+}
+
+.plan-para {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #8badab;
+}
+
+.plan-support {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #0f5f5c;
+}
+
+
+
+
+/*footer css*/
+.footer1 {
+    padding: 50px 0;
+}
+
+.footer1-text h1 {
+    font-family: "ProximaNova";
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0f5f5c;
+}
+
+.footer1-text p {
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+
+.footer1-text p span {
+    color: #0f5f5c;
+    font-weight: 700;
+}
+
+.footer1-text-same h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f5f5c;
+    margin-bottom: 15px;
+}
+
+.footer1-text-same ul {
+    padding: 0;
+}
+
+.footer1-text-same ul li a {
+    text-decoration: none;
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+
+.footer1-text-same ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer1-text-same p {
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+
+.footer-input {
+    width: 100%;
+    background: #eef1ec;
+    border: none;
+    padding: 5px 10px;
+}
+
+.footer-input input {
+    width: 90%;
+    background: #eef1ec;
+    border: none;
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+
+::placeholder {
+    color: #83a7a5;
+    font-family: "Roboto";
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*footer2 css*/
+
+#foooter2 .container {
+    padding: 30px 0;
+    border-top: 1px solid #eef1ec;
+}
+
+#foooter2 i {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+#foooter2 p {
+    margin: 0;
+    padding: 0;
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+
+#foooter2 #id1 {
+    background-color: #55acee;
+}
+
+#foooter2 #id2 {
+    background-color: #3b5998;
+}
+
+#foooter2 #id3 {
+    background-color: #3f729b;
+}
+
+#foooter2 #id4 {
+    background-color: #ea4c89;
+}
+
+#foooter2 #id5 {
+    background-color: #333333;
+}
+
+.fab,
+.fas {
+    color: #fff;
+    font-size: 20px;
+}
